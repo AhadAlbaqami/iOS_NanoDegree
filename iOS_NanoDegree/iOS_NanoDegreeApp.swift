@@ -13,7 +13,7 @@ struct iOS_NanoDegreeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EventsView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

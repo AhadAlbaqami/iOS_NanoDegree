@@ -13,6 +13,9 @@
 		7F2E4B732C16C80300715513 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E4B722C16C80300715513 /* Preview Assets.xcassets */; };
 		7F2E4B752C16C80300715513 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E4B742C16C80300715513 /* Persistence.swift */; };
 		7F2E4B782C16C80300715513 /* iOS_NanoDegree.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E4B762C16C80300715513 /* iOS_NanoDegree.xcdatamodeld */; };
+		7F7758C62C16D633009543F5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7758C52C16D633009543F5 /* Event.swift */; };
+		7F7758C82C16DB03009543F5 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7758C72C16DB03009543F5 /* EventsView.swift */; };
+		7F7758CA2C16E420009543F5 /* EventForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7758C92C16E420009543F5 /* EventForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		7F2E4B722C16C80300715513 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F2E4B742C16C80300715513 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7F2E4B772C16C80300715513 /* iOS_NanoDegree.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_NanoDegree.xcdatamodel; sourceTree = "<group>"; };
+		7F7758C52C16D633009543F5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		7F7758C72C16DB03009543F5 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		7F7758C92C16E420009543F5 /* EventForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			children = (
 				7F2E4B6B2C16C80200715513 /* iOS_NanoDegreeApp.swift */,
 				7F2E4B6D2C16C80200715513 /* ContentView.swift */,
+				7F7758C12C16D612009543F5 /* Events */,
 				7F2E4B6F2C16C80300715513 /* Assets.xcassets */,
 				7F2E4B742C16C80300715513 /* Persistence.swift */,
 				7F2E4B762C16C80300715513 /* iOS_NanoDegree.xcdatamodeld */,
@@ -71,6 +78,40 @@
 				7F2E4B722C16C80300715513 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F7758C12C16D612009543F5 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				7F7758C42C16D62A009543F5 /* ViewModel */,
+				7F7758C32C16D623009543F5 /* View */,
+				7F7758C22C16D61A009543F5 /* Model */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		7F7758C22C16D61A009543F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F7758C52C16D633009543F5 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F7758C32C16D623009543F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F7758C72C16DB03009543F5 /* EventsView.swift */,
+				7F7758C92C16E420009543F5 /* EventForm.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F7758C42C16D62A009543F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +188,9 @@
 				7F2E4B782C16C80300715513 /* iOS_NanoDegree.xcdatamodeld in Sources */,
 				7F2E4B6E2C16C80200715513 /* ContentView.swift in Sources */,
 				7F2E4B6C2C16C80200715513 /* iOS_NanoDegreeApp.swift in Sources */,
+				7F7758CA2C16E420009543F5 /* EventForm.swift in Sources */,
+				7F7758C62C16D633009543F5 /* Event.swift in Sources */,
+				7F7758C82C16DB03009543F5 /* EventsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

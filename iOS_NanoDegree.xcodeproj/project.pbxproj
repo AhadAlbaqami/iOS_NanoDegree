@@ -83,7 +83,6 @@
 		7F7758C12C16D612009543F5 /* Events */ = {
 			isa = PBXGroup;
 			children = (
-				7F7758C42C16D62A009543F5 /* ViewModel */,
 				7F7758C32C16D623009543F5 /* View */,
 				7F7758C22C16D61A009543F5 /* Model */,
 			);
@@ -105,13 +104,6 @@
 				7F7758C92C16E420009543F5 /* EventForm.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		7F7758C42C16D62A009543F5 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
